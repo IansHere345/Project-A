@@ -533,7 +533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game of the Year
+  m_text: Speed Round 3D
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1335,6 +1335,7 @@ GameObject:
   - component: {fileID: 2033596472}
   - component: {fileID: 2033596471}
   - component: {fileID: 2033596470}
+  - component: {fileID: 2033596473}
   m_Layer: 5
   m_Name: Start_Button
   m_TagString: Untagged
@@ -1405,7 +1406,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2033596471}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2033596473}
+        m_TargetAssemblyTypeName: startButtonScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: First World
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2033596471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1457,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033596468}
   m_CullTransparentMesh: 1
+--- !u!114 &2033596473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033596468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7b98f051b0a144a95696b605a80561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::startButtonScript
 --- !u!1 &2085213972
 GameObject:
   m_ObjectHideFlags: 0
