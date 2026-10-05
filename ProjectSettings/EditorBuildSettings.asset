@@ -14,6 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Unity UI.unity
     guid: d98dcc9b7e19bb247bf1ca4c3dbb7d10
+  - enabled: 1
+    path: Assets/Options Scene.unity
+    guid: 2c5f02e32b7364842b857c01ad351826
+  - enabled: 1
+    path: Assets/Controls Scene.unity
+    guid: 9e4e41282caa64446af8a3aea3eab799
+  - enabled: 1
+    path: Assets/First World Completed.unity
+    guid: b2e8bf2c5ffff2d449ec9417d9929c66
+  - enabled: 1
+    path: Assets/Unity Scrolling Text.unity
+    guid: 88c926628c10bfc498520dddb4d30427
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

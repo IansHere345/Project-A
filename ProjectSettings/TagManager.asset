@@ -6,6 +6,10 @@ TagManager:
   tags:
   - CinemachineTarget
   - Checkpoint1
+  - GreenOrb
+  - Checkpoint2
+  - Checkpoint3
+  - WorldComplete
   layers:
   - Default
   - TransparentFX
